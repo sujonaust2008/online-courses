@@ -1,0 +1,514 @@
+/* comon style that use most  */
+nav ul li.active a {
+    background-color: green;
+    color: white;
+    border-radius: 15px 2px 15px 2px;
+}
+
+
+.animationActive {
+    position: relative;
+    animation: animationActive 1s ease;
+}
+
+@keyframes animationActive {
+    0% {
+        transform: translate3d(0, 250px, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+
+.bgImageStyle {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-2 {
+    background-image: url(./Images/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    position: relative;
+}
+
+/* .duplicateNav {
+    display: block;
+} */
+
+.line-height-style {
+    line-height: 0.5;
+}
+
+.logoText {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0;
+}
+
+.logoText2 {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-fa-lg {
+    font-size: 35px;
+    line-height: 0;
+    color: white;
+}
+
+.socialIconBg {
+    width: 50px;
+    height: 50px;
+    background-color: #B7D7DC;
+    color: #1EB2A6;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.socialIconBg:hover {
+    background-color: #1EB2A6;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #1EB2A6;
+}
+
+.navbar-nav .nav-link.active {
+    color: #1EB2A6;
+}
+
+
+
+.nav-link-2:hover .nav-link-1 {
+    color: white;
+}
+
+
+
+.navBtn-1 {
+    background-color: #1EB2A6;
+    border: none;
+    border-radius: 5px;
+    padding: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+.navBtn-2 {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 13px;
+    color: #1EB2A6;
+    font-weight: bold;
+}
+
+.heroTextSection {
+    padding-left: 115px;
+    padding-top: 100px;
+}
+
+.learnSection>.row>.col-6>p {
+    padding: 0;
+    margin: 0;
+}
+
+.learnSection>.row>.col-6>h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.learnSection {
+    background-color: #F8F8F8;
+    height: 1150px;
+}
+
+.learnSectionPart-1 {
+    width: 100%;
+    margin: 0 auto;
+    height: 850px;
+    background-image: url('./Images/about.jpg');
+    background-position: center center;
+    background-size: cover;
+
+
+}
+
+.benefitsSection {
+    padding: 100px 35px;
+}
+
+.beneHeader {
+    color: #1EB2A6;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.beneMainText {
+    font-weight: bold;
+    padding: 15px 0;
+    font-size: 45px;
+}
+
+.beneCard {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.beneCard:hover {
+    background-color: #1EB2A6;
+}
+
+.beneImg {
+    height: 100px;
+    padding: 0;
+    margin: 0 15px;
+}
+
+.beneCard:hover .beneImgStyle-1 {
+    display: none;
+}
+
+.beneImgStyle-2 {
+    display: none;
+}
+
+.beneCard:hover .beneImgStyle-2 {
+    display: block;
+}
+
+
+
+.beneImg>img {
+    height: 100px;
+}
+
+.text-bene-1 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.beneCard:hover .text-bene-1,
+.beneCard:hover .text-bene-2 {
+    color: white;
+}
+
+.text-bene-2 {
+    color: #BABABA;
+    font-size: 15px;
+}
+
+
+/* counter section start here  */
+
+.counterSection {
+    height: 300px;
+    background-image: url('./Images/bg_3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.counterSection>div {
+    background: rgb(142, 139, 139);
+    background: linear-gradient(90deg, rgba(142, 139, 139, 1) 0%, rgba(142, 139, 139, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    height: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.counterSection img {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+}
+
+.counterSection p {
+    line-height: 25px;
+}
+
+/* popular sectoin start here  */
+.popularSection {
+    background-color: #F8F8F8;
+    padding: 100px 0px;
+}
+
+.popularSection h2 {
+    font-size: 20px;
+}
+
+.popularSlider {
+    width: 4464px;
+    animation: popularAnimation 8s ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes popularAnimation {
+    0% {
+        transform: translate3d(-1116px, 0, 0);
+    }
+
+    25% {
+        transform: translate3d(-1488px, 0, 0);
+    }
+
+    50% {
+        transform: translate3d(-1860px, 0, 0);
+    }
+
+    75% {
+        transform: translate3d(-2232px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-2604px, 0, 0);
+    }
+
+}
+
+/* online courses section start here  */
+.onlineSection {
+    background-color: #F8F8F8;
+    padding: 100px 50px;
+}
+
+.onlineCard {
+    background-color: white;
+    transition: all 1s ease;
+    border-radius: 15px;
+    width: 204px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+
+.onlineCardSection {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.onlineCard:hover {
+    background-color: #1EB2A6;
+}
+
+.coursesImg-1 {
+    display: block;
+}
+
+.coursesImg-2 {
+    display: none;
+}
+
+.onlineCard:hover .coursesImg-1 {
+    display: none;
+}
+
+.onlineCard:hover .coursesImg-2 {
+    display: block;
+    z-index: 10;
+}
+
+.coursesText {
+    color: black;
+}
+
+.onlineCard:hover .coursesText {
+    color: white;
+}
+
+.courseBtn {
+    background-color: #b5eee9;
+    color: #1EB2A6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.onlineCard:hover .courseBtn {
+    background-color: white;
+}
+
+/* testimonial section start here  */
+
+.testimonialSection {
+    background-color: #F8F8F8;
+    padding: 100px 0;
+}
+
+.testAnimationDiv {
+    width: 1116px;
+    overflow: hidden;
+}
+
+.testimonialAnimation {
+    width: 3348px;
+    animation: testimonialAnimation 8s ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes testimonialAnimation {
+    0% {
+        transform: translate3d(-1116px, 0, 0);
+    }
+
+    33.33% {
+        transform: translate3d(-1488px, 0, 0);
+    }
+
+    66.66% {
+        transform: translate3d(-1860px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-2232px, 0, 0);
+    }
+
+}
+
+.testimonialImg-1 {
+    background-image: url('./Images/person_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.testimonialImg-2 {
+    background-image: url('./Images/person_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.testimonialImg-3 {
+    background-image: url('./Images/person_3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.quoteIcon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1EB2A6;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    right: -10px;
+    bottom: -10px;
+
+}
+
+.quoteIcon>i {
+    font-size: 25px;
+    color: white;
+}
+
+.testiText {
+    color: #1EB2A6;
+}
+
+.testimonialText {
+    color: #A7A7A7;
+}
+
+
+/* chat GPT  */
+
+
+
+
+
+
+
+/* blog section start here  */
+
+.blogSection {
+    background-color: #F8F8F8;
+    padding: 100px 100px;
+}
+
+.blogCard {
+    border-radius: 15px;
+}
+
+/* pricing section start here  */
+
+.pricingSection {
+    background-color: #F8F8F8;
+    padding: 100px 100px;
+}
+
+
+/* news section start here  */
+.newsSection {
+    height: 250px;
+    background-color: #1EB2A6;
+    padding: 50px 150px;
+}
+
+
+/* footer section start here  */
+footer {
+    background-color: #EEEEEE;
+}
+
+.linkList span>i {
+    margin-right: 10px;
+    color: #1EB2A6;
+}
+
+.linkList>p:hover {
+    color: #1EB2A6;
+    font-weight: bold;
+}
+
+.postText {
+    color: #1EB2A6;
+}
+
+.copyRightSection {
+    background-color: #E9E9E9;
+    height: 90px;
+}
